@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Only Health – Healthy Food, Happy Mood</title>
+  <meta name="description" content="Only Health - Healthy homemade meals, tiffin & train delivery in Jabalpur. Order via WhatsApp +91 9479598167." />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo="> 
+  <style>
+    :root{
+      --dark-green:#006400;
+      --fresh-green:#27AE60;
+      --bg:#ffffff;
+      --muted:#666;
+      --maxw:1000px;
+      --accent:#f7fff8;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    body{margin:0;background:var(--bg);color:#111}
+    .wrap{max-width:var(--maxw);margin:28px auto;padding:20px}
+    header{display:flex;align-items:center;gap:16px;margin-bottom:18px}
+    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(180deg,var(--fresh-green),var(--dark-green));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:20px}
+    h1{margin:0;font-size:28px;color:var(--dark-green)}
+    p.lead{margin:4px 0 0;color:var(--muted)}
+    .hero{display:flex;gap:20px;align-items:center;margin:18px 0;padding:18px;border-radius:12px;background:linear-gradient(90deg, rgba(39,174,96,0.08), rgba(0,100,0,0.03));}
+    .hero .left{flex:1}
+    .cta{display:flex;gap:12px;margin-top:12px}
+    .btn{display:inline-block;padding:12px 16px;border-radius:10px;text-decoration:none;font-weight:700}
+    .btn-primary{background:var(--dark-green);color:#fff}
+    .btn-outline{background:transparent;border:2px solid var(--dark-green);color:var(--dark-green)}
+    .menu-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:18px}
+    .card{background:#fff;padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(10,10,10,0.04)}
+    .card h3{margin:0 0 8px;color:var(--dark-green)}
+    .item{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px dashed #eee}
+    .item:last-child{border-bottom:0}
+    footer{margin-top:20px;padding:18px;border-radius:8px;background:var(--accent);display:flex;justify-content:space-between;align-items:center}
+    .contact{font-weight:700;color:var(--dark-green)}
+    .small{font-size:13px;color:var(--muted)}
+    @media(max-width:720px){.menu-grid{grid-template-columns:1fr}.hero{flex-direction:column;align-items:flex-start}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">OH</div>
+      <div>
+        <h1>Only Health</h1>
+        <p class="lead">Healthy • Hygienic • Homemade Taste — Jabalpur</p>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="left">
+        <h2 style="margin:0;color:var(--dark-green)">Fresh & Homemade Meals — Delivered to Your Train Seat or Home</h2>
+        <p class="small">Order wholesome tiffins, healthy bowls, South Indian favourites and quick bites. Balanced meals for students, office-goers & travellers.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="https://wa.me/919479598167" target="_blank">Order on WhatsApp</a>
+          <a class="btn btn-outline" href="#menu">View Menu</a>
+        </div>
+      </div>
+      <div style="width:220px;flex-shrink:0">
+        <img alt="healthy food" src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800" style="width:100%;border-radius:10px;display:block"/>
+      </div>
+    </section>
+
+    <section id="menu">
+      <h2 style="color:var(--dark-green)">Our Menu</h2>
+      <div class="menu-grid">
+        <div class="card">
+          <h3>Starters & Snacks</h3>
+          <div class="item"><span>Paneer Tikka</span><strong>₹250</strong></div>
+          <div class="item"><span>Soya Kabab</span><strong>₹150</strong></div>
+          <div class="item"><span>Sprout Salad</span><strong>₹100</strong></div>
+          <div class="item"><span>Paneer Paratha</span><strong>₹150</strong></div>
+          <div class="item"><span>Veg Appe</span><strong>₹100</strong></div>
+          <div class="item"><span>Sabudana Vada</span><strong>₹200</strong></div>
+          <div class="item"><span>Sabudana Khichdi Frankie</span><strong>₹250</strong></div>
+          <div class="item"><span>Chilli Potato</span><strong>₹200</strong></div>
+        </div>
+
+        <div class="card">
+          <h3>Rice & Main Course</h3>
+          <div class="item"><span>Weight Loss Pulao</span><strong>₹200</strong></div>
+          <div class="item"><span>Lemon Rice</span><strong>₹200</strong></div>
+          <div class="item"><span>Daal Khichdi</span><strong>₹190</strong></div>
+          <div class="item"><span>Kashmiri Pulao</span><strong>₹300</strong></div>
+          <div class="item"><span>Schezwan Rice</span><strong>₹190</strong></div>
+          <div class="item"><span>Curd Rice</span><strong>₹200</strong></div>
+          <div class="item"><span>Biryani</span><strong>₹200</strong></div>
+        </div>
+
+        <div class="card">
+          <h3>Combos & Quick Bites</h3>
+          <div class="item"><span>Rice with Masoor Dal</span><strong>₹200</strong></div>
+          <div class="item"><span>Aloo Sabji with Poori (8)</span><strong>₹150</strong></div>
+          <div class="item"><span>Chole Rice</span><strong>₹200</strong></div>
+          <div class="item"><span>Rajma Rice</span><strong>₹200</strong></div>
+          <div class="item"><span>Ragi Dosa with Chutney</span><strong>₹200</strong></div>
+          <div class="item"><span>Protein Poha</span><strong>₹100</strong></div>
+        </div>
+
+        <div class="card">
+          <h3>Desserts & Beverages</h3>
+          <div class="item"><span>Fruit Custard</span><strong>₹200</strong></div>
+          <div class="item"><span>Milk Seviyan</span><strong>₹200</strong></div>
+          <div class="item"><span>Rawa Halwa</span><strong>₹200</strong></div>
+          <div class="item"><span>Makhane ki Kheer</span><strong>₹250</strong></div>
+          <div class="item"><span>Cold Coffee</span><strong>₹100</strong></div>
+          <div class="item"><span>Lassi</span><strong>₹100</strong></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section style="margin-top:18px">
+      <h2 style="color:var(--dark-green)">Contact & Order</h2>
+      <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+        <a class="btn btn-primary" href="https://wa.me/919479598167" target="_blank">Order on WhatsApp</a>
+        <a class="btn btn-outline" href="tel:+919479598167">Call +91 9479598167</a>
+        <div style="color:var(--muted);font-size:14px;margin-left:8px">Serving Jabalpur & nearby stations. Train delivery available — enter PNR while ordering.</div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <div style="font-weight:700;color:var(--dark-green)">Only Health</div>
+        <div class="small">Healthy • Hygienic • Homemade Taste</div>
+      </div>
+      <div style="text-align:right">
+        <div class="contact">📞 +91 9479598167</div>
+        <div class="small">💬 wa.me/919479598167</div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
